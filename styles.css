@@ -1,0 +1,41 @@
+li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	border: 2px solid gray;
+}
+li div {
+	flex-grow: 1;
+}
+
+button {
+	cursor: pointer;
+	float: right;
+}
+
+.check-btn {
+	background-color: #6dd689;
+}
+
+.remove-btn {
+	background-color: #f59993;
+}
+
+.check-btn:hover {
+	background-color: #76c893;
+}
+
+.remove-btn:hover {
+	background-color: #f86c6b;
+}
+
+.check-btn,
+.remove-btn {
+	transition: background-color 0.4s ease;
+}
+
+.task-done {
+	text-decoration: line-through;
+	background-color: #b3e8a5;
+}
